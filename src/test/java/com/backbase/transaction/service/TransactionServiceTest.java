@@ -2,7 +2,6 @@ package com.backbase.transaction.service;
 
 import com.backbase.transaction.domain.Transaction;
 import com.backbase.transaction.domain.TransactionCategory;
-import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,11 +10,11 @@ import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 
 import java.io.IOException;
-import java.io.InputStream;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+import static com.backbase.transaction.service.TestUtils.readTransactions;
 import static org.assertj.core.api.Assertions.assertThat;
 
 @SpringBootTest
@@ -29,11 +28,7 @@ class TransactionServiceTest {
 
     @Test
     void categorizeTransactions() throws IOException {
-        List<Transaction> transactions;
-        try (InputStream inputStream = transactionMockFile.getInputStream()) {
-            transactions = objectMapper.readValue(inputStream, new TypeReference<>() {
-            });
-        }
+        List<Transaction> transactions = readTransactions(transactionMockFile, objectMapper);
         Map<TransactionCategory, Set<Transaction>> categoryTransactionsMap =
                 transactionService.getCategoryTransactionsMap(transactions);
         assertThat(categoryTransactionsMap).isNotEmpty();
