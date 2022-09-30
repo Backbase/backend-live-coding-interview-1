@@ -1,0 +1,79 @@
+[
+  {
+    "id": "10",
+    "creditCardAccountNumber": "678847293",
+    "amount": "13",
+    "description": "Chair",
+    "transactionCategory": "SHOPPING"
+  },
+  {
+    "id": "6",
+    "creditCardAccountNumber": "678847293",
+    "amount": "35",
+    "description": "Desk",
+    "transactionCategory": "SHOPPING"
+  },
+  {
+    "id": "3",
+    "creditCardAccountNumber": "678847294",
+    "amount": "45",
+    "description": "Coffee Table",
+    "transactionCategory": "SHOPPING"
+  },
+  {
+    "id": "4",
+    "creditCardAccountNumber": "678847293",
+    "amount": "23",
+    "description": "Night Stand",
+    "transactionCategory": "SHOPPING"
+  },
+  {
+    "id": "2",
+    "creditCardAccountNumber": "678847293",
+    "amount": "200",
+    "description": "Sofa",
+    "transactionCategory": "SHOPPING"
+  },
+  {
+    "id": "7",
+    "creditCardAccountNumber": "678847293",
+    "amount": "25",
+    "description": "Shoe Rack",
+    "transactionCategory": "SHOPPING"
+  },
+  {
+    "id": "9",
+    "creditCardAccountNumber": "678847294",
+    "amount": "150",
+    "description": "Drawer",
+    "transactionCategory": "SHOPPING"
+  },
+  {
+    "id": "1",
+    "creditCardAccountNumber": "678847293",
+    "amount": "43",
+    "description": "Coat Rack",
+    "transactionCategory": "SHOPPING"
+  },
+  {
+    "id": "11",
+    "creditCardAccountNumber": "678847293",
+    "amount": "10",
+    "description": "Mirror",
+    "transactionCategory": "SHOPPING"
+  },
+  {
+    "id": "12",
+    "creditCardAccountNumber": "678847293",
+    "amount": "120",
+    "description": "Dining Table",
+    "transactionCategory": "SHOPPING"
+  },
+  {
+    "id": "13",
+    "creditCardAccountNumber": "678847293",
+    "amount": "27",
+    "description": "Dining Chair",
+    "transactionCategory": "SHOPPING"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "10",
+    "creditCardAccountNumber": "678847293",
+    "amount": "122.99",
+    "description": "Lidl",
+    "transactionCategory": "SHOPPING"
+  },
+  {
+    "id": "6",
+    "creditCardAccountNumber": "678847293",
+    "amount": "1250",
+    "description": "August Rent",
+    "transactionCategory": "RENT"
+  },
+  {
+    "id": "3",
+    "creditCardAccountNumber": "678847294",
+    "amount": "25",
+    "description": "MCDonald",
+    "transactionCategory": "FOOD"
+  },
+  {
+    "id": "4",
+    "creditCardAccountNumber": "678847293",
+    "amount": "45",
+    "description": "Levi's",
+    "transactionCategory": "SHOPPING"
+  },
+  {
+    "id": "2",
+    "creditCardAccountNumber": "678847293",
+    "amount": "120.45",
+    "description": "Ikea",
+    "transactionCategory": "SHOPPING"
+  },
+  {
+    "id": "7",
+    "creditCardAccountNumber": "678847293",
+    "amount": "20",
+    "description": "GVB",
+    "transactionCategory": "TRANSPORTATION"
+  },
+  {
+    "id": "9",
+    "creditCardAccountNumber": "678847294",
+    "amount": "30.89",
+    "description": "Alber Heijn",
+    "transactionCategory": "FOOD"
+  },
+  {
+    "id": "1",
+    "creditCardAccountNumber": "678847293",
+    "amount": "150",
+    "description": "KLM",
+    "transactionCategory": "TRAVEL"
+  },
+  {
+    "id": "13",
+    "creditCardAccountNumber": "678847294",
+    "amount": "30",
+    "description": "Pathè",
+    "transactionCategory": "LEISURE"
+  },
+  {
+    "id": "4",
+    "creditCardAccountNumber": "678847293",
+    "amount": "45",
+    "description": "Levi's",
+    "transactionCategory": "SHOPPING"
+  }
+]
